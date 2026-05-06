@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Engineering Guardrails"
+  short_description: "Keep code changes small, simple, and verifiable"
+  default_prompt: "Use $senior-engineering-guardrails to keep this code change focused, simple, and backed by clear validation."
