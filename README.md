@@ -1,5 +1,7 @@
 # Senior Engineering Guardrails
 
+[简体中文](README.zh-CN.md)
+
 A small skill for coding agents that keeps implementation work focused, simple, and verifiable.
 
 This is not a framework, code generator, or automation tool. It is a discipline layer for agents such as Codex, Claude Code, and other tools that support skill or instruction files.
