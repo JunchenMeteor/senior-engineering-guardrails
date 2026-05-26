@@ -1,6 +1,6 @@
 # Senior Engineering Guardrails
 
-[简体中文](README.zh-CN.md)
+Language: [English](README.md) | [中文](README.zh-CN.md)
 
 A small skill for coding agents that keeps implementation work focused, simple, and verifiable.
 
