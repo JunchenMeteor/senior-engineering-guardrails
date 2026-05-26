@@ -1,6 +1,6 @@
 # Senior Engineering Guardrails
 
-[English](README.md)
+语言：[English](README.md) | [中文](README.zh-CN.md)
 
 一个面向编程 Agent 的小型 skill，用来让代码实现过程更聚焦、更简单、更容易验证。
 
