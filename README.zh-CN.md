@@ -27,6 +27,24 @@
 
 如果只是非常小的机械修改，这个 skill 可能用不上。
 
+## 交互式菜单
+
+安装后，AI 触发 skill 时会自动调用 `scripts/menu.js` 弹出交互菜单（需要 Node.js）：
+
+```
+需要哪种 guardrail？
+（↑↓ 移动，Enter 确认，Ctrl+C 退出）
+
+❯ Pre-commit review — 提交前检查变更
+  Bug fix — 测试优先的 debug 流程
+  Feature — 最小范围实现新功能
+  ...
+  其他（手动输入）
+```
+
+不支持交互终端时，AI 会输出文本编号菜单，回复数字即可。
+语言跟随系统环境变量（`LANG`），也可以用 `MENU_LANG=zh node scripts/menu.js` 强制中文。
+
 ## Codex 安装
 
 把 skill 文件夹复制到 Codex 的 skills 目录：
@@ -67,6 +85,8 @@ skills/
       openai.yaml
     references/
       claude-code.md
+scripts/
+  menu.js
 ```
 
 ## 设计原则
